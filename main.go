@@ -22,7 +22,7 @@ func main() {
 	threads := flag.Int("threads", 250, "Number of concurrent threads")
 	maxAttempts := flag.Int("attempts", 10, "Maximum number of attempts per account")
 	captchaURL := flag.String("captcha-url", "", "URL for the captcha solver service (optional)")
-	captchaKey := flag.String("captcha-key", "", "API key for the captcha solver service")
+	captchaKey := flag.String("captcha-key", "", "API key for the captcha solver service (optional)")
 	resultsDir := flag.String("results", "results", "Directory to store results")
 
 	flag.Parse()
